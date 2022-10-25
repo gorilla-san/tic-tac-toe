@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <script src="script.js" defer></script>
+    <title>tic-tac-toe</title>
+</head>
+<body>
+    <form class="playerCreation" id="playerCreation" name="playerCreation">
+        <div class="createPlayer1">
+            <label for="player1name"><p>Player One Name</p></label>
+            <input name="player1name" id="player1name">
+        </div>
+        <div class="createPlayer2">
+            <label for="player2name"><p>Player Two Name</p></label>
+            <input name="player2name" id="player2name">
+        </div>
+        <input id="startgame" type="submit" action="submit">
+    </form>
 
+    <main class="mainInvis">
+        <div class="scoreboard">
+            <div class="names">
+                <span id="name1"></span>
+                <span id="name2"></span>
+            </div>
+            <div class="score"></div>
+            <div class="turn"></div>
+        </div>
+        <div class="field font-effect-fire" id="field1"></div>
+        <div class="field font-effect-fire" id="field2"></div>
+        <div class="field font-effect-fire" id="field3"></div>
+        <div class="field font-effect-fire" id="field4"></div>
+        <div class="field font-effect-fire" id="field5"></div>
+        <div class="field font-effect-fire" id="field6"></div>
+        <div class="field font-effect-fire" id="field7"></div>
+        <div class="field font-effect-fire" id="field8"></div>
+        <div class="field font-effect-fire" id="field9"></div>
+
+    </main>
+    
+</body>
+</html>
